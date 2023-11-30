@@ -1,0 +1,260 @@
+body {
+    background-color: #F8F8F8;
+    margin: 0;
+    padding-top: 60px;
+}
+
+#header {
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    height: 80px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+#SobreSite {
+    margin-top: 45px;
+    position: relative;
+    z-index: 1;
+}
+
+#h-NomeSite, #HomeRC {
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+}
+
+#h-NomeSite {
+    width: 280px;
+    height: 60px;
+    padding-left: 5%;
+    padding-top: -10%;
+    font-family: Rozha One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    flex-direction: column;
+
+}
+
+#HomeRC {
+    margin:auto;
+    line-height: 50px;
+    letter-spacing: 8px;
+    margin-top: -4%;
+    font-size: 24px;
+}
+
+#bemvindo {
+    display: block;
+    flex-direction: column;
+    padding-left: 750px;
+    padding-top: 10%;
+    padding-bottom: -7%;
+    width: 600px;
+    height: 90px;
+    font-size: 36px;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    font-family: Rozha One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.5px;
+}
+
+#buscamos {
+    display: block;
+    flex-direction: column;
+    padding-left: 750px;
+    width: 600px;
+    height: 235px;
+    font-size: 20px;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    font-family: Montserrat Light;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 46.5px;
+}
+
+.retangulo1ºplano {
+    position: relative;
+    background: #E7E7E7;
+    width: 462.2064px;
+    height: 636.3584px;
+    transform: rotate(0.032deg);
+    flex-shrink: 0;
+    margin-top: -580px;
+}
+
+.retangulo2ºplano {
+    position: relative;
+    background: #ECECEC;
+    width: 506.5008px;
+    height: 484.244px;
+    transform: rotate(0.032deg);
+    flex-shrink: 0;
+    margin-left: 150px;
+    margin-top: -500px;
+
+}
+
+.retangulo3ºplano {
+    position: relative;
+    background: #DEDEDE;
+    width: 437.550px;
+    height: 537.3488px;
+    transform: rotate(0.032deg);
+    flex-shrink: 0;
+    margin-top: -400px;
+    margin-left: 120px;
+}
+
+.Cadastro {
+    text-align: center;
+    font-size: x-large;
+    font-family: Rozha One;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 8%;
+}
+
+
+#bnt_cadastro{
+    font-size: medium;
+    background-color: #363535;
+    color: #b7b7b7;
+    border-radius: 5px;
+    font-family: Montserrat Medium;
+}
+
+.ConteudoCadastro input{
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    border-radius:5px ;
+    font-family: Montserrat Light;
+}
+
+
+.reclamacao {
+    text-align: center;
+    font-size: x-large;
+    font-family: Rozha One;
+    line-height: 46.5px;
+    margin-top: 5%;
+}
+
+#selecioneUsuario{
+    font-family: Montserrat Light;
+    width: 180px;
+}
+
+.listaUsuario{
+    margin-top: -30px;
+    width: 220px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #000;
+    font-family: Montserrat Light;
+    margin-top: -10px;
+}
+
+#certifique-se {
+    width: 200px;
+    font-family: Montserrat Light;
+    font-size: xx-small;
+    line-height: 10px;
+    text-align: center; 
+    margin: 0 auto; 
+    margin-bottom: -45px;
+}
+#mensagemReclamacao{
+    margin-top: -30px;
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #000;
+    font-family: Montserrat Light;
+    margin-bottom: -20px;
+}
+
+#emailReclamacao input {
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #000;
+    font-family: Montserrat Light;
+}
+
+#bnt_enviar_Reclamacao{
+    font-size: medium;
+    background-color: #363535;
+    color: #b7b7b7;
+    border-radius: 5px;
+    font-family: Montserrat Medium;
+}
+
+#Reclamacoes {
+    text-align: center;
+    font-size: x-large;
+    font-family: Rozha One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.5px;
+    margin-top: 8%;
+}
+
+.infoReclamacoes {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #000;
+    font-family: Montserrat Medium;
+    letter-spacing: 4px;
+
+}
+
+#bnt_Nova_Reclamacao{
+    padding: 8px;
+    font-size: medium;
+    background-color: #363535;
+    color: #b7b7b7;
+    border-radius: 5px;
+    font-family: Montserrat Medium;
+}
+
+Table {
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+}
+
+th, td {
+    border: 1px solid rgb(214, 214, 214);
+    padding: 8px;
+    font-family: Montserrat Light;
+    height: 20px;
+}
+
+th {
+    background: #c5c5c5;
+}
+
+tr:hover {
+    background-color: #b6b6b6;
+}
